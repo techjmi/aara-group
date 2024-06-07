@@ -1,0 +1,15 @@
+@keyframes tilt {
+    0% {
+        transform: rotate(-3deg);
+    }
+    50% {
+        transform: rotate(3deg);
+    }
+    100% {
+        transform: rotate(-3deg);
+    }
+}
+
+.animate-tilt {
+    animation: tilt 0.8s infinite;
+}
